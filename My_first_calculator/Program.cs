@@ -41638,8 +41638,7 @@ namespace My_first_calculator
                 Console.WriteLine("50*50 = 2500"); 
             }
 
-            Console.WriteLine("Thanks for using this calculator, goodbye :)")
-
+            Console.WriteLine("Thanks for using this calculator, goodbye :)");
         }
     }
 }
