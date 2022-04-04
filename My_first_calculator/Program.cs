@@ -1,4 +1,3 @@
-
 using System;
 
 namespace My_first_calculator
@@ -7,9 +6,6 @@ namespace My_first_calculator
     {
         static void Main(string[] args)
         {
-            // god forgive me for what i'm going to do
-            Console.WriteLine("Hi! This is analog of legendary my_first_calculator in C#");
-
             int num1;
             int num2;
             string sign;
@@ -20,6 +16,19 @@ namespace My_first_calculator
             num2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter a sign:");
             sign = Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             if (num1 == 0 && sign == "+" && num2 == 0)
             {
@@ -41623,7 +41632,7 @@ namespace My_first_calculator
             }
             if (num1 == 50 && sign == "*" && num2 == 47)
             {
-                Console.WriteLine("50*47 = 2350"); 
+               `Console.WriteLine("50*47 = 2350"); 
             }
             if (num1 == 50 && sign == "*" && num2 == 48)
             {
@@ -41636,10 +41645,10 @@ namespace My_first_calculator
             if (num1 == 50 && sign == "*" && num2 == 50)
             {
                 Console.WriteLine("50*50 = 2500"); 
-            }
-
+            }   
+            
             Console.WriteLine("Thanks for using this calculator, goodbye :)");
+                //meow
         }
     }
 }
-
